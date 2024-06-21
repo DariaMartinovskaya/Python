@@ -13,4 +13,5 @@ Python 3.12.4
 PyCharm is an integrated development environment (IDE) used for programming in Python
 
 ## Here are the results of my first steps in python coding:
-XX - creating variables of different types.
+
+<a href="https://github.com/DariaMartinovskaya/Python/blob/main/Creating_variables.md">Variables</a> - creating variables of different types.
