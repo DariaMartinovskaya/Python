@@ -1,4 +1,4 @@
-## Tasks
+## Steps
 
  1. Create a variable int_item with the value 10
 
