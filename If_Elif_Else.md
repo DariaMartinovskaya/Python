@@ -117,7 +117,7 @@ usd_byn_rate = 2.46
 20. Сreate if with the following condition: if mult_int more than comp_item, print into the console (“The variable mult_int is more”, comp_item)
 
 ```
-print("Task No. 20:")
+print("Step No. 20:")
 if mult_int > comp_item:
     print("The variable mult_int is more", comp_item)
 print()
@@ -132,7 +132,7 @@ div_int = int_item/2
 22. Сreate if with the following condition: if div_int is less than comp_item, print into the console (“The variable div_int is less”, comp_item)
 
 ```
-print("Task No. 22:")
+print("Step No. 22:")
 if div_int < comp_item:
     print("The variable div_int is less", comp_item)
 print()
@@ -147,7 +147,7 @@ item_1 = int_item + 10
 24. Сreate if with the following condition: if item_1 is less than comp_item, print into the console (“The variable item_1 is less”, comp_item), otherwise, print into the console (“The variable item_1 is more or equal”, comp_item)
 
 ```
-print("Task No. 24:")
+print("Step No. 24:")
 if item_1 < comp_item:
     print("The variable item_1 is less", comp_item)
 else:
@@ -158,7 +158,7 @@ print()
 25. Сreate if with the following condition: if item_2, print into the console (“The variable item_2 = ”, item_2), otherwise, print into the console (“The variable item_2 = ”, item_3)
 
 ```
-print("Task No. 25:")
+print("Step No. 25:")
 if item_2:
     print("The variable item_2 = ", item_2)
 else:
@@ -169,7 +169,7 @@ print()
 26. Сreate if with the following condition: if item_3, print into the console (“The variable item_3 = ”, item_2), otherwise, print into the console (“The variable item_3 = ”, item_3)
 
 ```
-print("Task No. 26:")
+print("Step No. 26:")
 if item_3:
     print("The variable item_3 = ", item_2)
 else:
@@ -180,7 +180,7 @@ print()
 27. Сreate if with the following condition: if item_5, print into the console (“The variable item_5 = ”, item_5), otherwise, print into the console (“The variable item_5 = ”, item_4)
 
 ```
-print("Task No. 27:")
+print("Step No. 27:")
 if item_5:
     print("The variable item_5 = ", item_5)
 else:
@@ -191,7 +191,7 @@ print()
 28. Сreate if with the following condition: if item_4, print into the console (“The variable item_4 = ”, item_5), otherwise, print into the console (“The variable item_4 = ”, item_4)
 
 ```
-print("Task No. 28:")
+print("Step No. 28:")
 if item_4:
     print("The variable item_4 = ", item_5)
 else:
@@ -226,7 +226,7 @@ currency_convertor = item_2
 31.7 Create else statement as the last one with prenting into the console (“Unknow currency”) upon fulfillment
 
 ```
-print("Tasks No. 30-31:")
+print("Steps No. 30-31:")
 
 if currency_convertor:
     currency_usd = usd_item
@@ -257,27 +257,27 @@ else:
 ## Console output:
 
 ```
-Task No. 20:
+Step No. 20:
 The variable mult_int is more 18
 
-Task No. 22:
+Step No. 22:
 The variable div_int is less 18
 
-Task No. 24:
+Step No. 24:
 The variable item_1 is more or equal 18
 
-Task No. 25:
+Step No. 25:
 The variable item_2 =  True
 
-Task No. 26:
+Step No. 26:
 The variable item_3 =  False
 
-Task No. 27:
+Step No. 27:
 The variable item_5 =  1
 
-Task No. 28:
+Step No. 28:
 The variable item_4 =  0
 
-Tasks No. 30-31:
+Steps No. 30-31:
 50 eur = 43.0 usd
 ```
