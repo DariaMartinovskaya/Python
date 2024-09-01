@@ -1,4 +1,4 @@
-# Task 1. Check if a number is even or odd.
+## Task 1. Check if a number is even or odd.
 
 ```
 n = int(input())
@@ -20,7 +20,7 @@ Odd number
 Even number
 ```
 
-# Task 2. What is the day today?
+## Task 2. What is the day today?
 
 ```
 day = input()
@@ -49,7 +49,7 @@ Sunday
 Today is weekend!
 ```
 
-# Task 3. Echo
+## Task 3. Echo
 
 ```
 n = int(input())
@@ -68,7 +68,7 @@ Text
 Text
 Text
 ```
-# Task 4. Counting the amount of vowels letters
+## Task 4. Counting the amount of vowels letters
 ```
 message = input("Fill in input data (in English): ")
 vowels = "aeiou"
