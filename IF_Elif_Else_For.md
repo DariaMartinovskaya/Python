@@ -87,3 +87,27 @@ Console input:
 Fill in input data (in English): Python coding
 Number of vowels: 3
 ```
+
+## Task 5. Sum of numbers input until the minus number
+
+```
+total_sum = 0
+
+while True:
+    n = int(input("Input a number: "))
+    if n < 0:
+        break
+    total_sum += n
+
+print("Total sum: ", total_sum)
+```
+
+Console output:
+```
+Input a number: 3
+Input a number: 4
+Input a number: 5
+Input a number: 6
+Input a number: -5
+Total sum:  18
+```
