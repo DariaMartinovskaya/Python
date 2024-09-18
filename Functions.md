@@ -1,4 +1,4 @@
-### Task 1.
+### Task 1. Advanced sum
 
 ```
 def sum_ignore_non_numbers(items):
@@ -20,7 +20,7 @@ Console output:
 54
 ```
 
-### Task 2. 
+### Task 2. Triangle
 
 ```
 def is_triangle(a, b, c):
@@ -37,7 +37,7 @@ False
 True
 ```
 
-### Task 3. 
+### Task 3. Average 
 
 ```
 def average(*args):
@@ -57,7 +57,7 @@ Console output:
 0
 ```
 
-### Task 4. 
+### Task 4. Common strings
 ```
 def common_string(list1, list2, ignore_case=True):
     if ignore_case:
