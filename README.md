@@ -18,4 +18,6 @@ PyCharm is an integrated development environment (IDE) used for programming in P
 
 <a href="https://github.com/DariaMartinovskaya/Python/blob/main/List_Tuple_Dict_Set.md">Data structures</a> - using lists, tuples, dictionaries, sets.
 
+<a href="https://github.com/DariaMartinovskaya/Python/blob/main/Functions.md">Functions</a> - using functions.
+
 <a href="https://github.com/DariaMartinovskaya/Python/blob/main/If_Elif_Else.md">Сurrency converter in Python </a> - creating a simple programm implementing a currency converter in the Python programming language. The main goal of this programm is to check how many dollars you can get for a given amount of another currency and display the result in the console. When compliting this task I used if, elif and else operators.
