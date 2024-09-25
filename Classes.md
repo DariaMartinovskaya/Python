@@ -91,3 +91,23 @@ Console output:
 ```
 1500
 ```
+
+### Task 4. Overdraft
+```
+class OverdraftAccount(BankAccount):
+    def withdraw(self, amount):
+            self._balance -= amount
+
+
+jack_account = OverdraftAccount("Jack", 0)
+jack_account.withdraw(100)
+
+jack_account.withdraw(100)
+jack_account.withdraw(100)
+print(jack_account.get_balance())
+```
+
+Console output:
+```
+-300
+```
