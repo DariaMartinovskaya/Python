@@ -59,3 +59,35 @@ Console output:
 ```
 30
 ```
+
+### Task 3. Bank account
+
+```
+class BankAccount:
+
+    def __init__(self, name, balance):
+        self._name = name
+        self._balance = balance
+
+    def deposit(self, amount):
+        self._balance += amount
+
+    def withdraw(self, amount):
+        if self._balance - amount < 0:
+            print("Insufficient funds!")
+        else:
+            self._balance -= amount
+
+    def get_balance(self):
+        return self._balance
+
+account = BankAccount("Maria", 1000)
+account.deposit(700)
+account.withdraw(200)
+print(account.get_balance())
+```
+
+Console output:
+```
+1500
+```
