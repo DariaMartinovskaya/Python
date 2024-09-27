@@ -34,7 +34,10 @@ numbers = [i for i in items if isinstance(i, (int, float))]
 
 print(sum(numbers))
 ```
-
+Console output:
+```
+291.52
+```
 ### Task 3. Message history.
 
 - Create a messages list that will store “messages”.
@@ -63,7 +66,18 @@ while True:
 
 print(messages)
 ```
-
+Console output:
+```
+Enter your message: hi
+Enter your message: how are you
+Enter your message: i have a question
+Enter your message: what is the weather today
+Enter your message: i live here
+Enter your message: bye
+Enter your message: Bye
+Okay, bye!
+['i have a question', 'what is the weather today', 'i live here', 'bye', 'Bye']
+```
 ### Tesk 4. Without duplicates.
 There is a list numbers = [15, 3, 8, 42, 3, 23, 8, 7, 42, 1, 9, 23, 15, 5, 9, 4, 6, 1]
 - Create a new list where all duplicates will be deleted from the list numbers
@@ -89,7 +103,11 @@ sorted_numbers = sorted(numbers_new)
 
 print(sorted_numbers)
 ```
-
+Console output:
+```
+[1, 3, 4, 5, 6, 7, 8, 9, 15, 23, 42]
+[1, 3, 4, 5, 6, 7, 8, 9, 15, 23, 42]
+```
 ### Task 5. Market
 
 ```
@@ -116,7 +134,10 @@ for data in products.values():
 
 print(total)
 ```
-
+Console output:
+```
+6516.0
+```
 ### Task 6.
 
 ```
@@ -129,6 +150,10 @@ for i in range(len(keys)):
     info[keys[i]] = values[i]
 
 print(info)
+```
+Console outpit:
+```
+{'name': 'Alice', 'age': 30, 'city': 'New York', 'occupation': 'Engineer', 'email': 'alice@example.com', 'phone': '+1234567890', 'hobby': 'Reading', 'education': 'Masters in Computer Science', 'company': 'TechCorp', 'salary': 90000}
 ```
 
 ### Task 7.
@@ -150,4 +175,8 @@ for c in secret_message:
         decrypted_message += cipher[c]
 
 print(decrypted_message)
+```
+Console output:
+```
+секретныйплансовершаетсявполночь
 ```
