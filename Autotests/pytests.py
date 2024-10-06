@@ -126,7 +126,7 @@ def test_delete_booking():
 
 Test results:
 
-```
+
 /Users/dariamartinovskaya/Documents/pythonProject1/.venv/bin/python /private/var/folders/dc/5w6tkw1d4tj7_rpzlm92m4hh0000gn/T/AppTranslocation/FA4DFE80-556E-418E-BAB5-1AA014BF597E/d/PyCharm CE.app/Contents/plugins/python-ce/helpers/pycharm/_jb_pytest_runner.py --path /Users/dariamartinovskaya/Documents/pythonProject1/test_bookings.py 
 Testing started at 21:15 ...
 Launching pytest with arguments /Users/dariamartinovskaya/Documents/pythonProject1/test_bookings.py --no-header --no-summary -q in /Users/dariamartinovskaya/Documents/pythonProject1
