@@ -1,21 +1,14 @@
-```
-
 import functions as func
 
-```
 
-### Test 1. GET
-
-```
+# Test 1. GET
 def test_get_all_bookings():
     response = func.get_all_bookings()
 
     assert response.status_code == 200, "Status code is not 200!"
-```
 
-### Test 2. POST
 
-```
+# Test 2. POST
 def test_create_new_booking():
 
 # Expected data
@@ -45,10 +38,8 @@ def test_create_new_booking():
 # Checking that data is the same as expected data
     assert response_data["firstname"] == data["firstname"]
     assert response_data["lastname"] == data["lastname"]
-```
 
-### Test 3. PATCH
-```
+# Test 3. PATCH
 def test_update_booking():
 # Creating new booking (initial data)
     initial_data = {
@@ -91,10 +82,9 @@ def test_update_booking():
 # Checking that data is the same as expected data
     assert response_data["firstname"] == updated_data["firstname"]
     assert response_data["lastname"] == updated_data["lastname"]
-```
 
-### Test 4. DELETE
-```
+
+# Test 4. DELETE
 def test_delete_booking():
 # Creating new booking (initial data)
     initial_data = {
