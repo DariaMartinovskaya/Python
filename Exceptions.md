@@ -5,11 +5,12 @@ class RegistrationError(Exception):
     pass
 
 def registration(username, password):
-    if type(username) != str:
-        raise RegistrationError("Username should be a string.")
+    if type(username) != str or (len(username) < 4 or len(username) > 15) or not username.isalpha():
+        raise RegistrationError("Username should be a string of no less than 4 and no more than 15 letters")
     if type(password) != str or (len(password) < 8 or len(password) > 45) or not password.isalnum():
         raise ValueError("Password should be a string of no less than 8 and no more than 45 digitals and/or letters")
-    return "Successful registration"
+
+    return True
 
 print("VALID DATA")
 try:
@@ -20,7 +21,7 @@ except RegistrationError as e:
 except ValueError as e:
     print(f"Error in password: {e}")
 finally:
-    print("Done finnaly")
+    print("Done finally")
 
 print("")
 print("INVALID DATA")
@@ -33,21 +34,34 @@ except RegistrationError as e:
 except ValueError as e:
     print(f"Error in password: {e}")
 finally:
-    print("Done finnaly")
+    print("Done finally")
+
+print("")
+print("INVALID DATA")
+
+try:
+    result = registration("Daria", '!')
+    print(result)
+except RegistrationError as e:
+    print(f"Error in registration: {e}")
+except ValueError as e:
+    print(f"Error in password: {e}")
+finally:
+    print("Done finally")
 ```
 
 Console output:
 
 ```
 VALID DATA
-Successful registration
-Done finnaly
+True
+Done finally
 
 INVALID DATA
-Error in registration: Username should be a string.
-Done finnaly
+Error in registration: Username should be a string of no less than 4 and no more than 15 letters
+Done finally
 
 INVALID DATA
 Error in password: Password should be a string of no less than 8 and no more than 45 digitals and/or letters
-Done finnaly
+Done finally
 ```
