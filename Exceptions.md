@@ -97,3 +97,42 @@ Enter your login DariaM
 Enter your password 1234qwer
 Success!
 ```
+
+Task 3. Dear diary...
+
+```
+with open("journal.txt", "r", encoding="utf-8") as file:
+    pass
+
+    while True:
+        string = input("Write the option: read, write, exit: ").lower()
+
+        if string == 'write':
+            with open("journal.txt", "a", encoding="utf-8") as file:
+                new_line = input("Enter text to be included into the file: ")
+                file.write(new_line + '\n')
+                print("Text is added.")
+        elif string == 'read':
+            with open("journal.txt", "r", encoding="utf-8") as file:
+                data = file.read()
+                print(data)
+                file.close()
+        elif string == 'exit':
+            with open("journal.txt", "r", encoding="utf-8") as file:
+                print("See you later!")
+                file.close()
+                break
+        else:
+            continue
+```
+Console output:
+```
+Write the option: read, write, exit: write
+Enter text to be included into the file: text text text
+Text is added.
+Write the option: read, write, exit: read
+text text text
+
+Write the option: read, write, exit: exit
+See you later!
+```
