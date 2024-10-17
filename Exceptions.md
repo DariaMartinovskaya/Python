@@ -98,7 +98,7 @@ Enter your password 1234qwer
 Success!
 ```
 
-Task 3. Dear diary...
+### Task 3. Dear diary...
 
 ```
 with open("journal.txt", "r", encoding="utf-8") as file:
