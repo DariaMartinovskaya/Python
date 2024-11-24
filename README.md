@@ -20,6 +20,8 @@ PyCharm is an integrated development environment (IDE) used for programming in P
 
 <a href="https://www.codewars.com/users/DariaMartinovskaya">Here</a> is the link to my Codewars.com account where I practice Python coding by completing different tasks. 
 
+<a href="https://github.com/DariaMartinovskaya/Python/blob/main/AIMA_90_days_calculation.py">Days calculation</a> - creating a single program calculating the end day of 90-days period set forth for the reviewing residence permit application in Portugal.
+
 <a href="https://github.com/DariaMartinovskaya/Python/blob/main/If_Elif_Else.md">Сurrency converter in Python </a> - creating a simple programm implementing a currency converter in the Python programming language. The main goal of this programm is to check how many dollars you can get for a given amount of another currency and display the result in the console. When compliting this task I used if, elif and else operators.
 
 <a href="https://github.com/DariaMartinovskaya/Python/blob/main/Exceptions.md">Exceptions and files</a> - creating exceptions and work with files.
